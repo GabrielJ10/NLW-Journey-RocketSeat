@@ -56,7 +56,7 @@ A API do planner de viagens oferece as seguintes rotas:
 
 Para inicializar o projeto, siga os passos abaixo:
 
-1. Clone o repositório: `git clone https://github.com/seu-usuario/nlw-journey-rocketseat.git`
+1. Clone o repositório: `git clone https://github.com/GabrielJ10/NLW-Journey-RocketSeat`
 2. Instale as dependências: `npm install` ou `yarn install`
 3. Inicie a API: `npm run dev`
 A API estará disponível em `http://localhost:3333`.
