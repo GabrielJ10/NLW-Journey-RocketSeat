@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "npx tsx watch scr/server.ts"
+    "dev": "tsx watch --env-file .env src/server.ts"
   },
   "keywords": [],
   "author": "",
@@ -13,11 +13,12 @@
   "devDependencies": {
     "@types/node": "^20.14.10",
     "@types/nodemailer": "^6.4.15",
-    "prisma": "^5.16.1",
+    "prisma": "^5.16.2",
     "tsx": "^4.16.2",
     "typescript": "^5.5.3"
   },
   "dependencies": {
+    "@fastify/cors": "^9.0.1",
     "@prisma/client": "^5.16.1",
     "dayjs": "^1.11.11",
     "fastify": "^4.28.1",
